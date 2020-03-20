@@ -151,7 +151,7 @@ class PostsCarousel extends StatelessWidget {
         ),
         Container(
           height: 400.0,
-          // width: 400.0,
+          width: 400.0,
           child: PageView.builder(
             physics: BouncingScrollPhysics(),
             controller: pageController,
@@ -165,4 +165,3 @@ class PostsCarousel extends StatelessWidget {
     );
   }
 }
-
